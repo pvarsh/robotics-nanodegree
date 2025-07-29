@@ -2,6 +2,7 @@
 <sdf version='1.7'>
   <model name='building'>
     <pose>0 0 0 0 0 0</pose>
+    <static>1</static>
     <link name='Walls_1'>
       <pose>0 0 0 0 0 0</pose>
       <!-- Wall 1 -->
@@ -129,6 +130,5 @@
         </geometry>
       </visual>
     </link>
-    <static>1</static>
   </model>
 </sdf>
