@@ -21,6 +21,11 @@
             <size>10 0.15 2.5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
       <!-- Wall 2 (opposite Wall 1)-->
       <collision name='Wall_2_Collision'>
@@ -38,6 +43,11 @@
             <size>10 0.15 2.5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
       <!-- Wall 3 -->
       <collision name='Wall_3_Collision'>
@@ -55,6 +65,11 @@
             <size>0.15 10 2.5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
     </link>
     <link name='Door_1'>
@@ -74,6 +89,11 @@
             <size>0.15 1 2</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.4 0.25 0.1 1</ambient>
+          <diffuse>0.5 0.3 0.1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
       </visual>
     </link>
     <link name='Wall_With_Door_Frame'>
@@ -94,6 +114,11 @@
             <size>0.15 8 2.5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
       <!-- short section-->
       <collision name='Short_Wall_Collision'>
@@ -111,6 +136,11 @@
             <size>0.15 1 2.5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
       <!-- Lintel (above door) -->
       <collision name='Lintel_Collision'>
@@ -128,6 +158,11 @@
             <size>0.15 1 .5</size>
           </box>
         </geometry>
+        <material>
+          <ambient>0.6 0.8 1.0 1</ambient>   <!-- soft light blue -->
+          <diffuse>0.6 0.8 1.0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular> <!-- subtle shine -->
+        </material>
       </visual>
     </link>
   </model>
